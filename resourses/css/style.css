@@ -1,0 +1,209 @@
+/*-------- basek setup ------------- */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+color: #345354;
+   font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+       
+}
+.body{
+    margin: 0 auto;
+    clear: both;
+    width: 80%;
+}
+
+
+/*----------------------------------------------- */
+
+/*--------header----------- */
+
+/*----------------------------------------------- */
+
+
+.hero img{
+    width: 100%;
+    
+}
+.hero h1{
+margin-top: -500px;
+margin-left: 30px;
+color: #fff;
+font-size: 30px;
+}
+
+
+
+/*----------------------------------------------- */
+
+/*--------bottoms----------- */
+
+/*----------------------------------------------- */
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.btn-full{margin: 0 0 0 40px;
+    background-color: #2A4340;
+    color:white;
+    margin-right: 30px;
+}
+.btn-border{margin: 0;
+    border:2px solid #2A4340;
+    color: #2A4340;
+}
+.btn-border:hover{
+    background-color: #E3BBA5;
+    transition: background-color 1s;
+}
+.main-nav{
+    float: left;
+    list-style: none;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300px;
+    background-color:  #272c2c;
+    width: 100%;
+}
+.main-nav li{
+    padding: 20px;;
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+}
+.main-nav li a:hover{
+    color: #e74c3c;
+    
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+   
+}
+
+/*----------------------Start section------------------------*/
+
+section{
+    
+    height: 700px;
+    margin-top: 226px;
+    width: 70%;
+    
+ 
+}
+section h2{
+    color: #272c2c;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 6px;
+
+}
+section div {
+    margin-bottom: 6px;
+    float: left;
+    margin-left: 8px;
+    /*background-color:#ccc;*/ 
+    height: 350px;
+    width: 30.333333%;
+    border: 1px solid #ccc;
+}
+section div.section_1 h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #e74c3c;
+    font-size: 20px;
+
+}
+
+
+section div.section_1 img{
+    width: 100%;
+    text-align: center;
+
+}
+section div.section_1 span{
+    display: block;
+    margin: 0 auto;
+    padding-left: 140px;
+    float:left;
+    color: #e74c3c;
+}
+section div.section_1 button{
+    display: block;
+    margin: 0 auto 0 auto;
+    
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: black;
+    
+}
+section div.section_1 button:hover{
+    background-color: violet;
+}
+aside{
+    width: 24%;
+    float: left;
+    margin: -59% 0 0 2%;
+    padding: 2%;
+    
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+aside div{
+  
+    margin:0 0 5px 0;
+    
+}
+aside div h1{
+    text-align: center;
+    color: white;
+    background-color: #e74c3c;
+    border-radius: 20px;
+}
+aside div ul li{
+    font-weight: bolder;
+    list-style: none;
+    text-align: center;
+}
+aside div ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(83, 83, 83)
+}
+aside div ul li a:hover{
+    color: #e74c3c;
+    
+}
+
+/* -------------start foooter------------*/
+footer{
+    display: block;
+    margin-top: 87px;
+    background-color:  #272c2c;
+    text-align: center;
+    color: #e74c3c;
+    border-radius: 10x;
+}
+footer p{
+    padding: 23px;
+
+}
+
+
+
+/*----------------------End section------------------------*/
